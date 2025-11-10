@@ -1,7 +1,7 @@
 '-------------------------------BANK--------------------------'
 import mysql.connector as c
 
-con = c.connect(host='localhost', user='root', passwd='8547', database='bank')
+con = c.connect(host='localhost', user='root', passwd='', database='bank')
 cr = con.cursor()
 '-------------------------------------------------------------'
 import time
@@ -155,5 +155,6 @@ def main():
 while True:
    
     main()
+
 
 
